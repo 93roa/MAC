@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("background.jpg");
+  min-height: 800px;
+     /* Center and scale the image nicely */
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+ margin-top: 10px;
+}
+
+.butt{
+     background-color: #b2dd4c;
+    border-radius: 3px; 
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 2px;
+    height: 29px;
+    width:80px;
+    position:relative;
+    font-weight: bold;
+    font-family: "Allerta";
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex ;
+    align-items: center;
+    padding: 8px;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Allerta";
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color:#555;
+}
+
+.container{
+    max-width: 1300px;
+    margin:auto ;
+}
+
+.paragraph{
+    font-size:60px ;
+    padding-top: 40px;
+    padding-left: 240px;
+    padding-bottom: 0px;
+    font-family: "Allerta";
+    
+}
+.p1{
+color: dimgrey; 
+font-size: 20px; 
+
+}
+
+.but{
+    background-color: #b2dd4c;
+    border-radius: 3px; 
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 4px 2px;
+    height: 50px;
+    width: 210px;
+    position:relative;
+    font-weight: bold;
+    font-family: "Allerta";
+    cursor: pointer;
+    left: 240px;
+    top: 40px;
+}
+
+.but1{width: 130px; background-color: transparent; border: 2px solid dimgray   ; color: dimgray;}
+
+
+.row{
+   display: flex;
+   align-items: center; 
+   flex-wrap: wrap;
+   justify-content:center;
+}
+
+.triangle-up {
+    padding-top: 150px;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 1500px solid transparent;
+	border-bottom: 200px solid white;
+}
+
+h2{
+    text-align: center;
+    font-family: "Allerta";
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    font-family: "Allerta";
+    font-size: 20px;
+    font-style: normal;
+}
+p{
+    font-family: "Allerta";
+    color: dimgray;
+    text-align: center;
+}
+
+.button{
+        background-color: #b2dd4c;
+        color: white;
+        border:none;
+        border-radius: 50%;
+        padding:39px;
+        display: inline-block;
+        font-size: 60px;
+        margin: 30px 2px;
+        cursor: pointer;
+        left: 200px;
+        top: 40px;
+        overflow:hidden; 
+        position: center;
+}
+
+.categories .col-1 {
+    text-align: center;
+    padding: 40px 20px;
+    transition: transform 0.5s;
+}
+
+.col-1 .btn     {
+    position: center;
+    background-color: white;
+    border-radius: 3px; 
+    border: 2px solid dimgray   ;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px 2px;
+    height: 40px;
+    width: 120px;
+}
+
+.triangle-down {
+    margin-bottom: 30px;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 1500px solid transparent;
+	border-top: 250px solid white;
+}
+/* -----------------offers---------*/
+.offers {
+    background: rgb(245,245,245);
+    margin:auto ;
+    padding: 0px 0;
+    justify-content: left;
+    padding-bottom: 0px;
+    margin-bottom: 0px;  
+    height:auto;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 100px;
+    padding-left: 90px;
+    padding-right: 25px;
+}
+.col-2 .offer-img{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+ }
+small{
+    color:#555 ;
+    text-align: left;
+    font-size: 20px;
+}
+.col-2 h3{
+    font-size: 30px;
+    line-height: 60px;
+    text-align: left;  
+}
+.col-2 p{
+    font-size: 15px;
+    text-align: left;
+}
+.triangle-right {
+    padding: 0px;
+    margin: 0px;
+	width: 0;
+	height: 0;
+	border-left: 1500px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 300px solid white;
+}
+
+ .Products.small-container{
+    max-width:1100px;
+    margin:80px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+ .col-3{
+   flex-basis: 25px;
+    padding: 10px;
+    min-width: 300px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-3:hover{
+    transform: translateY(-5px);
+}
+
+.rating{
+    color: #b2dd4c;
+}
+.col-3 img{
+    width: 280px;
+    padding: 0;
+}
+
+  .box{
+    flex-basis: 25px;
+    height: 100px;
+    margin: 0;
+    display:flex;
+    border:2px solid lightgray;    
+}
+
+.col-4{
+    font-size: 14px;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+    width: 120px;
+}
+
+.col-3 a{
+    border:2.5px solid lightgray;
+    border-top-width: 0;
+    height: 30px;
+    width:50%;
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.col-5 a{
+    border-right-width: 0;
+}
+ .cart {
+    background-color: rgb(245,245,245);
+    flex-basis: 50%;
+    min-width: 1900px;
+    height: 90px;
+    align-content:center;
+    padding: 60px;
+    position: absolute;
+
+} 
+
+}
+ div .b{
+    background-color: #b2dd4c;
+    border:none;
+    border-radius: 5%;
+    font-size: 20px;
+    height:50px;
+    width:150px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #555;
+    font-size: 15px;
+    height: 90px;
+    text-align: center;
+    padding: 40px;
+}
