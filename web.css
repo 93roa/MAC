@@ -228,6 +228,8 @@ small{
 	border-bottom: 300px solid white;
 }
 
+/*------ Related Products ------*/
+
  .Products.small-container{
     max-width:1100px;
     margin:80px;
@@ -283,31 +285,47 @@ small{
 .col-5 a{
     border-right-width: 0;
 }
- .cart {
-    background-color: rgb(245,245,245);
-    flex-basis: 50%;
-    min-width: 1900px;
-    height: 90px;
-    align-content:center;
-    padding: 60px;
-    position: absolute;
 
+/* ------cart-------*/
+ .cart.small-container{
+    background-color: rgba(240, 240, 240, 0.692);
+    flex-basis: 30%;
+    min-width: 1500px;
+    height: 100px;
+    align-content:center;
+    padding: 80px;
+    position: absolute;
+    text-align: center;
 } 
 
+.col-6 p{
+    object-position: center;
+    padding: 50px  10px ;
+    margin-right: 190px;
 }
- div .b{
-    background-color: #b2dd4c;
+ .b{
+    background: #b2dd4c;
     border:none;
     border-radius: 5%;
-    font-size: 20px;
+    font-size: 15px;
     height:50px;
     width:150px;
     cursor: pointer;
 }
+
+/*------footer------*/
+
 .footer{
-    background-color: #555;
-    font-size: 15px;
+    background: #555;
     height: 90px;
+    min-width: 1900px;
+    padding: 30px;
+}
+
+.copyright{
+    font-size: 13px;
+    color: lightgray;
     text-align: center;
-    padding: 40px;
+    padding-right: 500px;
+
 }
